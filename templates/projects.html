@@ -1,0 +1,170 @@
+{% extends "base.html" %} {% block content %}
+
+<main>
+
+  <section class="py-5 text-center" style="background-image: url('/static/img/Projects.jpg');
+  background-size: cover; height:300px; width:100%;">
+    <div class="row py-lg-5" >
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="text1 fw-bold text-body-emphasis">Projects</h1>
+        <p class="text2 lead text-body-secondary">These are some of the notable projects that I've built over the months which shaped my journey as a junior developer - including this website. Each of them showcase my various expertise and experience with the Python Programming Language. Check out some of my work below!</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/Dangerous.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>The Most Dangerous Writing App</b>: This is a website I created with the purpose of helping writer's block. Writers can write a story, but if they stop for 5s, their progress will be lost. Toggles between Light and Dark Mode too!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://dangerouslywriting.onrender.com';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: Flask, BootStrap</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/colour.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Colour Palette Generator</b>: This website allows users to generate a colour palette using their own images.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://colourpalette-m6fn.onrender.com';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: Jinja, HTML, CSS, JavaScript</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/cafe.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Cafe & WiFi</b>: This is a website that shows registered users the different exquisite cafes in London, UK. More importantly, I got to handle DataBases (SQLIite/PostgreSQL), Flask Authentication, and Password Security (Hashing/Salting). </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://cafeandwifi-q576.onrender.com';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: DB, SQLAlchemy, Authentication</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/pdf.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>PDF to AudioBook Converter</b>: The inspiration of this came from the problem that some books do not support audio versions. Hence, this creation of mine uses Natural-Language Processing (NLP) to detect PDF language and GTTS Module to solve this problem.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://github.com/KeithCheng22/PDFtoAudioBookConverter';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: NLP, Modules, Libraries</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/typing.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Typing Speed Test</b>: Uses the Tkinter Library to create a GUI that tests typing speed. It provides a green/red letter feedback system, coupled with a 60s timer to give a Words-per-minute (WPM) summary result.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://github.com/KeithCheng22/TypingSpeedTest';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: GUI, TKinter</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/fatal.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Fatal Force Analysis</b>: This project was geared towards data science and analytics, where I analysed the fatal killings by the US Police from 2015 to 2018. This is a document where I share my insights, through the use of CSV data and graphic evidence.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://docs.google.com/document/d/1ejaQ31UHz8eZbMowTHPiPgDeDMHQe0vvQZL03JRp8OU/edit';"type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: Pandas, MatPlotLib, Plotly, SeaBorn</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/macro.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Macros Calculator</b>: The inspiration for this came because I wanted a way to find out the breakdown of macros in my food fast. Hence, this website serves to do that through the use of API requests. Now I can track my caloric intake!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://macroscalcal.onrender.com';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: HTTPS Requests, APIs, NLP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/web.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>US State Guessing Game</b>: The focus of this game was to learn web scraping skills using Beautiful Soup to obtain a CSV data of the 50 US States. Using the data, I then created a guessing game with Pandas and Turtle.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://github.com/KeithCheng22/U.S.GuessingGame';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: WebScraping (BeautifulSoup), CSVs</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/hack.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Morse Code Translator</b>: One of my first few GUI, shaped my fundamentals and gave me a solid understanding of classes (OOP). This GUI allows one to encode or decode Morse Code.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://github.com/KeithCheng22/MorseCodeTranslator';" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: Python Scripting, GUI</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/static/img/pong.mov" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <div class="card-body">
+              <p class="card-text"><b>Retro Pong Game</b>: My take on the classic Pong game, supports 2 players. I got to enhance my knoweldge on Object-Oriented Programming in this project.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-body-secondary">Skills: Turtle Library, OOP</small>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+{% endblock %}

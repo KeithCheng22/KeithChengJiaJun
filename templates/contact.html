@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block content %}
+
+
+<div style="background-image: url('/static/img/contact.jpg');
+  background-size: cover; height:300px;">
+    {% if submitted %}
+        <h1 class="contact display-5 fw-bold text-body-emphasis lh-1 mb-3">Successfully Submitted!</h1>
+    {% else %}
+        <h1 class="contact display-5 fw-bold text-body-emphasis lh-1 mb-3">Have Questions? I have answers.</h1>
+    {% endif %}
+
+    <p class="lead subheader">Want to get in touch? Fill out the form below to send me a message and
+          I will get back to you as soon as possible!</p>
+    <div class="container">
+        <div class="row pb-5">
+            {% from 'bootstrap5/form.html' import render_form %}
+            {{ render_form(form, button_map={"submit": "dark"}) }}
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock %}
