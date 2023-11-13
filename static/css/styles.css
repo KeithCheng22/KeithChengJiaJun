@@ -27,13 +27,37 @@ ul li{
 
 ul li #linkedin{
     padding-top:25px;
-    font-size:40px
+    font-size:40px;
+    color: #000000;
 }
 
 ul li #github{
     padding-top:25px;
     margin-left:50px;
-    font-size:40px
+    font-size:40px;
+    color: #000000;
+}
+
+#resume {
+    background-color: #000000;
+    border-color:  #000000
+
+}
+
+#resume:hover {
+    background-color: #2980b9;
+     border-color:  #2980b9
+
+}
+
+#github:hover {
+    color: #2980b9;
+
+}
+
+#linkedin:hover {
+    color: #2980b9;
+
 }
 
 a {
